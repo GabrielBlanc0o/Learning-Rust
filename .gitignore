@@ -1,7 +1,12 @@
-/target
-.exe
-.o
-Cargo.lock
-Cargo.toml
-.ilk
-.obj
+# Ejecutables
+*.exe
+
+# Archivos objeto / compilación
+*.o
+*.obj
+*.ilk
+*.pdb
+
+# Otros comunes
+*.out
+*.class
