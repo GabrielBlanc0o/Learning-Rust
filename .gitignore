@@ -1,1 +1,7 @@
 /target
+.exe
+.o
+Cargo.lock
+Cargo.toml
+.ilk
+.obj
