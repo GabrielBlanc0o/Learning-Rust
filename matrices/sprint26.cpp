@@ -5,7 +5,6 @@ int main(){
 
     int matriz[3][3];
 
-
     for(int i = 0; i < 3 ; i++){
         for(int j = 0; j < 3; j++){
             cin >> matriz[i][j];
@@ -23,6 +22,7 @@ int main(){
             }
         }
     }
+    
 
     cout << "El mayor es " << mayor << " y esta en la fila " << filaMax << " , columna " << colMax << endl;
 

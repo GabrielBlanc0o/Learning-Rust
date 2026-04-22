@@ -16,7 +16,7 @@ int main(){
             sumaDerecha += array[j];
         }
         if (array[i] > sumaDerecha){
-        cout << i << " ";
+        cout << i << " " << endl;
     }
 }
 
