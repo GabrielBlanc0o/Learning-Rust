@@ -25,7 +25,7 @@ int fibo(int n){
     lista[0] = 0;
     lista[1] = 1;
 
-    for (int i = 0; i <=n;i++){
+    for (int i = 2; i <=n;i++){
             lista[i] = lista[i-1] + lista[i-2];
         }
 
